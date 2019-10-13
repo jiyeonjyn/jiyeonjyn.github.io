@@ -90,7 +90,7 @@ rss:
 since: 2019.10.13
 
 # icon between year and author @Footer
-authoricon: /
+#authoricon: heart
 
 # Footer `powered-by` and `theme-info` copyright
 copyright: true
