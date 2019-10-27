@@ -8,8 +8,42 @@ tags:
 - JQuery
 ---
 
+### HTML
+```html
+<div id="header"></div>
+```
+
 ### CSS
-![scroll_css]({{"assets/images/post_img/scroll_css.jpg| relative_url}})
+```css
+#header {
+    position: fixed;
+    top:0;
+    left:50%;
+    transform:translateX(-50%);
+    background:#555;
+    width:100%;
+    height:130px;
+    transition: top 0.5s;
+}
+#header.hide {
+    top:-100%;
+}
+```
 
 ### JavaScript
-![scroll_js]({{"assets/images/post_img/scroll_js.jpg| relative_url}})
+```javascript
+var lastScrollTop = 0;
+var headerHeight = $("#header").outerHeight();
+
+$(window).scroll(function() {
+    var scrollTop = $(this).scrollTop();
+
+    if ( scrollTop > lastScrollTop && scrollTop > headerHeight ) {
+            $("#header").addClass("hide");
+    } else {
+            $("#header").removeClass("hide");
+    }
+
+    lastScrollTop = scrollTop;
+});
+```
