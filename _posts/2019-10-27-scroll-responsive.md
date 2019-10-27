@@ -9,7 +9,7 @@ tags:
 ---
 
 ### CSS
-![scroll_css](https://jiyeonjyn.github.io/assets/images/post_img/scroll_css.jpg)
+![scroll_css]({{"assets/images/post_img/scroll_css.jpg| relative_url}})
 
 ### JavaScript
-![scroll_js](https://jiyeonjyn.github.io/assets/images/post_img/scroll_js.jpg)
+![scroll_js]({{"assets/images/post_img/scroll_js.jpg| relative_url}})
