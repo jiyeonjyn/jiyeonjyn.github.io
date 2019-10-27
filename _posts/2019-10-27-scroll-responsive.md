@@ -39,9 +39,9 @@ $(window).scroll(function() {
     var scrollTop = $(this).scrollTop();
 
     if ( scrollTop > lastScrollTop && scrollTop > headerHeight ) {
-            $("#header").addClass("hide");
+        $("#header").addClass("hide");
     } else {
-            $("#header").removeClass("hide");
+        $("#header").removeClass("hide");
     }
 
     lastScrollTop = scrollTop;
