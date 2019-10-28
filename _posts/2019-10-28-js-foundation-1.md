@@ -1,5 +1,5 @@
 ---
-title: [JavaScript] 기초 1
+title: "[JavaScript] 기초 1"
 date: 2019-10-28
 categories:
 - JavaScript
