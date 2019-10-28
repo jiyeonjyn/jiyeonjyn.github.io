@@ -15,6 +15,9 @@ tags:
 
 ### CSS
 ```css
+body {
+    height:2000px;
+}
 #header {
     position: fixed;
     top:0;
