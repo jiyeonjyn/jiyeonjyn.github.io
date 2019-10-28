@@ -36,8 +36,8 @@ tags:
 - 문자열 숫자로 변환하기 : parseInt(), parseFloat(), Number()<br><br>
 -  Escape Character 
    - `\'` : 작은따옴표, `\"` : 큰따옴표
-   - \n : 줄바꿈
-   - " '' " 가능, ' "" ' 가능
+   - `\n` : 줄바꿈
+   - `" ' ' "` 가능, `' " " '` 가능
    - `\\` : 역슬래쉬 표현<br><br>
 - 연산자 a++은 우선순위 낮음, 가장 나중에 실행됨<br><br>
 - Math Methods
