@@ -1,5 +1,5 @@
 ---
-title: 스크롤 반응형 메뉴바
+title: [JavaScript] 스크롤 반응형 메뉴바
 date: 2019-10-27
 categories:
 - JavaScript
