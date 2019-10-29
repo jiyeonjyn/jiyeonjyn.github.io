@@ -22,7 +22,6 @@ tags:
     - 1=="1" -> true
     - 1==="1" -> false<br><br>
 - if
-  - 조건식을 쓸 때는 == 사용!!!
 ```javascript
 if (조건1) {
     결과;
@@ -70,8 +69,10 @@ do {
     3.증감식;
 } while (2.조건식)
 ```
+- 조건식을 쓸 때는 == 사용!!!
 - 반복문 안에 `if (조건) { continue; }`를 넣으면 그 조건에 해당할 때는 건너뛰고 실행된다.
 - 반복문 안에 `if (조건) { break; }`를 넣으면 그 조건에 해당할 때 반복문을 탈출한다.<br><br>
+- JavaScript, JQuery
 ```javascript
 // JavaScript로 css 적용하기
 var a = document.getElementsByTagName('TagName');
