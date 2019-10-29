@@ -36,6 +36,7 @@ $('선택자').css('color','red');
     - .concat() : 두 개의 배열을 하나로 합친다.
     - .split() : 문자열을 배열로 만들어 준다.<br><br>
 - .sort()
+
 ```javascript
 var array = new Array( "ghi", "abc", "def" );
 array.sort() = [ "abs", "def", "ghi" ]; -> 배열이 a~z 순서로 정렬됨
@@ -51,7 +52,9 @@ score.sort(function(a, b) {
     return b - a; // 내림차순
 }) = [ 11, 10, 4, 3, 2, 1 ];
 ```
+
 - .join()
+
 ```javascript
 var array = new Array( "ghi", "abc", "def" );
 
@@ -60,12 +63,15 @@ array.join("&") = "ghi&abc&def";
 ```
 
 - .slice()
+
 ```javascript
 var array = new Array( "ghi", "abc", "def" );
 
 array.slice(1,3) = [ "abc", "def" ];
 ```
+
 - .reverse()
+
 ```javascript
 var array = new Array( "ghi", "abc", "def" );
 
@@ -73,6 +79,7 @@ array.reverse() = [ "def", "abc", "ghi" ];
 ```
 
 - .concat()
+
 ```javascript
 var array = new Array( "ghi", "abc", "def" );
 var array2 = [ "사과", "배", "감" ];
@@ -81,6 +88,7 @@ array.concat(array2) = [ "ghi", "abc", "def", "사과", "배", "감" ];
 ```
 
 - .split()
+
 ```javascript
 var str = "안녕하세요";
 str.split('') = [ "안", "녕", "하", "세", "요" ];
