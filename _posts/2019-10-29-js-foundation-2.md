@@ -77,7 +77,6 @@ do {
 var a = document.getElementsByTagName('TagName');
 var a = document.getElementsByClassName('ClassName');
 var a = document.getElementsById('Id');
-
 for ( var i = 0; i < a.length; i++ ) {
     a[i].style.color='red';
 }
