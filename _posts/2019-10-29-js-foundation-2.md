@@ -71,17 +71,4 @@ do {
 ```
 - 조건식을 쓸 때는 == 사용!!!
 - 반복문 안에 `if (조건) { continue; }`를 넣으면 그 조건에 해당할 때는 건너뛰고 실행된다.
-- 반복문 안에 `if (조건) { break; }`를 넣으면 그 조건에 해당할 때 반복문을 탈출한다.<br><br>
-- 자바스크립트로 css 적용하기
-```javascript
-var a = document.getElementsByTagName('TagName');
-var a = document.getElementsByClassName('ClassName');
-var a = document.getElementsById('Id');
-for ( var i = 0; i < a.length; i++ ) {
-    a[i].style.color='red';
-}
-```
-- 제이쿼리로 css 적용하기
-```javascript
-$('선택자').css('color','red');
-```
+- 반복문 안에 `if (조건) { break; }`를 넣으면 그 조건에 해당할 때 반복문을 탈출한다.
