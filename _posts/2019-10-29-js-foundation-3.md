@@ -9,7 +9,7 @@ tags:
 
 ## 자바스크립트(JavaScript)
 - 자바스크립트로 css 적용하기
-```javascript
+```
 var a = document.getElementsByTagName('TagName');
 var a = document.getElementsByClassName('ClassName');
 var a = document.getElementsById('Id');
