@@ -1,6 +1,6 @@
 ---
 title: "[CSS] display : flex"
-date: 2019-10-29
+date: 2019-10-31
 categories:
 - CSS
 tags:
