@@ -13,7 +13,7 @@ tags:
 - 정렬하고자 하는 엘리먼트의 부모 태그에 적용
 - 뒤에 나올 속성 또한 정렬하고자 하는 엘리먼트의 부모 태그에 적용해야 한다.
 
-## 정렬하고자 하는 엘리먼트의 부모 태그에 적용하는 속성
+## 정렬하고자 하는 엘리먼트의 부모 태그에 적용해야 하는 속성
 
 ### flex-direction
 - row : 요소들을 가로로 정렬
@@ -55,6 +55,12 @@ tags:
 - nowrap : 모든 요소들을 한 줄에 정렬
 - wrap : 요소들이 넘칠 경우 여러 줄로 나누어 정렬
 - wrap-reverse : 요소들이 넘칠 경우 여러 줄로 나누어 정렬하되 각 줄을 역순으로 정렬
+<p class="codepen" data-height="500" data-theme-id="light" data-default-tab="result" data-user="jiyeonjyn" data-slug-hash="eYYeePR" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="[CSS] flex-wrap">
+  <span>See the Pen <a href="https://codepen.io/jiyeonjyn/pen/eYYeePR">
+  [CSS] flex-wrap</a> by 이지연 (<a href="https://codepen.io/jiyeonjyn">@jiyeonjyn</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 ### flex-flow
 - flex-direction과 flex-wrap을 간략히 적용하는 속성
@@ -62,7 +68,7 @@ tags:
   - ex) flex-flow: row wrap;
 
 
-## 정렬하고자 하는 엘리먼트에 직접 적용하는 속성
+## 정렬하고자 하는 엘리먼트에 직접 적용해야 하는 속성
 
 ### order
 - 자식 요소에 order 속성을 적용하여 정렬 순서를 바꿀 수 있다.
@@ -71,8 +77,19 @@ tags:
 - order 숫자가 작은 것부터 오름차순으로 정렬된다. (정렬 방향은 flex-direction에 의해 결정됨)
 
 ### align-self
-- 그 줄의 다른 엘리먼트와 별개로 해당 엘리먼트만 따로 배치할 수 있다.
-- 속성값으로 align-items가 사용하는 값들을 가질 수 있다.
+- 그 줄의 다른 엘리먼트와 별개로 해당 엘리먼트만  align-items를 따로 적용할 수 있다.
+  - 해당 엘리먼트가 빠진 자리를 그 다음 엘리먼트가 대체하지 않고 빈 공간으로 놔둔다.
+- 속성값으로 align-items가 사용하는 값들을 가진다.
+
+## display:flex 활용
+- margin, position 등 다른 속성을 사용하지 않고 간단하게 가운데 정렬할 수 있다.
+```css
+div.wrap {
+    display:flex;
+    width:100%;
+    justify-content:center;
+}
+```
 
 ## Reference
 - <http://flexboxfroggy.com/#ko>
