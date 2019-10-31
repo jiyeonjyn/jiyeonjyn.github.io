@@ -92,4 +92,4 @@ div.wrap {
 ```
 
 ## Reference
-- <http://flexboxfroggy.com/#ko>
+- <a href="http://flexboxfroggy.com/#ko" target="_blank">http://flexboxfroggy.com/#ko</a>
