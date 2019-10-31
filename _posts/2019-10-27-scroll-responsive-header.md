@@ -21,8 +21,7 @@ body {
 #header {
     position: fixed;
     top:0;
-    left:50%;
-    transform:translateX(-50%);
+    left:0;
     background:salmon;
     width:100%;
     height:100px;
