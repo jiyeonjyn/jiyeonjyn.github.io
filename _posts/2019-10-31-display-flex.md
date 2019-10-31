@@ -29,7 +29,7 @@ tags:
 - center: 요소들을 컨테이너의 세로선 상의 가운데에 정렬
 - baseline: 요소들을 컨테이너의 시작 위치에 정렬
 - stretch: 요소들을 컨테이너에 맞도록 늘림<br>
-<img src="https://css-tricks.com/wp-content/uploads/2018/10/align-items.svg" width="300" height="400">
+<img src="https://css-tricks.com/wp-content/uploads/2018/10/align-items.svg" width="300" height="400" style="margin-left:0;">
 
 ### order
 ### align-self
