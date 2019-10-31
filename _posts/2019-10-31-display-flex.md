@@ -65,7 +65,7 @@ tags:
 ### flex-flow
 - flex-direction과 flex-wrap을 간략히 적용하는 속성
 - `flex-flow : <flex-direction> <flex-wrap>;`
-  - ex) flex-flow: row wrap;
+  - ex) flex-flow : row wrap;
 
 
 ## 정렬하고자 하는 엘리먼트에 직접 적용해야 하는 속성
