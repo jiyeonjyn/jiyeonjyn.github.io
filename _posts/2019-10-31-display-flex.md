@@ -21,7 +21,7 @@ tags:
 - space-between: 요소들 사이에 동일한 간격 설정
 - space-around: 요소들 양옆에 동일한 간격 설정
 - space-evenly: 모든 간격을 동일하게 설정<br><br>
-- ![img](https://css-tricks.com/wp-content/uploads/2018/10/justify-content.svg){ : width="200" height="500" }
+![img](https://css-tricks.com/wp-content/uploads/2018/10/justify-content.svg){ : width="200" height="400" }
 
 #### align-items
 - flex-start: 요소들을 컨테이너의 꼭대기로 정렬합니다.
