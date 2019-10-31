@@ -52,7 +52,7 @@ $(window).scroll(function() {
 ```
 
 ### 결과확인
-<p class="codepen" data-height="700" data-theme-id="light" data-default-tab="result" data-user="jiyeonjyn" data-slug-hash="ExxbKJN" style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="스크롤 반응형 메뉴바">
+<p class="codepen" data-height="500" data-theme-id="light" data-default-tab="result" data-user="jiyeonjyn" data-slug-hash="ExxbKJN" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="스크롤 반응형 메뉴바">
   <span>See the Pen <a href="https://codepen.io/jiyeonjyn/pen/ExxbKJN">
   스크롤 반응형 메뉴바</a> by 이지연 (<a href="https://codepen.io/jiyeonjyn">@jiyeonjyn</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
