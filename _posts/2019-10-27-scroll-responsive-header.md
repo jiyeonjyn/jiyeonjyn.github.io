@@ -25,7 +25,7 @@ body {
     background:salmon;
     width:100%;
     height:100px;
-    transition: top 0.5s ease-in-out;
+    transition: top 0.5s;
 }
 #header.hide {
     top:-100%;
