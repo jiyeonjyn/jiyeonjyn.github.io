@@ -1,6 +1,6 @@
 ---
 title: "[CSS, JavaScript] 사이드바 아이콘 애니메이션"
-date: 2019-10-27
+date: 2019-11-02
 categories:
 - CSS
 - JavaScript
