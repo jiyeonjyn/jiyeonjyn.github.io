@@ -52,7 +52,7 @@ tags:
 <img src="https://css-tricks.com/wp-content/uploads/2018/10/align-content.svg" width="350" height="auto" style="margin-left:0;">
 
 ### flex-wrap
-- nowrap : 모든 요소들을 한 줄에 정렬
+- nowrap : 모든 요소들을 한 줄에 정렬(default)
 - wrap : 요소들이 넘칠 경우 여러 줄로 나누어 정렬
 - wrap-reverse : 요소들이 넘칠 경우 여러 줄로 나누어 정렬하되 각 줄을 역순으로 정렬
 <p class="codepen" data-height="500" data-theme-id="light" data-default-tab="result" data-user="jiyeonjyn" data-slug-hash="eYYeePR" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="[CSS] flex-wrap">
