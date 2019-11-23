@@ -11,7 +11,7 @@ tags:
 
 - 함수로 값을 넘겨주는 방식
   - call by value : 값을 복사해서 전달하는 방식, 원래 변수의 값은 변하지 않음
-  - call by reference : 함수 안에서 값이 변하면 원래 변수의 값도 변함
+  - call by reference : 주소값을 전달하는 방식, 함수 안에서 값이 변하면 원래 변수의 값도 변함
     - ex) var a = {key='value1'}일 때,
     - 함수 내에서 a.key = value2로 바꿨을 때 객체의 key 값도 value2로 바뀐다.
     - var b = a 일 때, b.key = value3로 바꿨을 때 a의 key 값도 value3로 바뀐다.<br><br>
