@@ -29,9 +29,9 @@
     @include the-transition();
   }
 
-  &:hover::before {
-    visibility: visible;
-    @include transform(scaleX(1));
+  // &:hover::before {
+  //   visibility: visible;
+  //   @include transform(scaleX(1));
   }
 
   .fa { font-size: 16px; }
