@@ -30,7 +30,7 @@
   }
 
   &:hover::before {
-    visibility: hidden;
+    visibility: visible;
     //@include transform(scaleX(1));
   }
 
