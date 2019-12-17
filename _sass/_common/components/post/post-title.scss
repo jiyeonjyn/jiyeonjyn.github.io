@@ -25,13 +25,13 @@
     left: 0;
     background-color: #000;
     visibility: hidden;
-    //@include transform(scaleX(0));
+    @include transform(scaleX(0));
     @include the-transition();
   }
 
   &:hover::before {
     visibility: visible;
-    //@include transform(scaleX(1));
+    @include transform(scaleX(1));
   }
 
   .fa {
